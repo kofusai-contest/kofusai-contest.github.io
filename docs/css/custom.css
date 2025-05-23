@@ -1,16 +1,10 @@
 
-#head-wrap {
-    position: relative;
+#custom-head {
     height: 100vh;
     width: 100%;
     top: 0px;
     left: 0px;
     clip-path: inset(0 0 0 0);
-}
-#custom-head {
-    position: fixed;
-    width: 100%;
-    height: 100vh;
 }
 #site-head {
   position: absolute;
