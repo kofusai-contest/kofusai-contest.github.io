@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="{{ .Site.Language.Lang }}">
+  <head>
+    {{- partial "head.html" . -}}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/2.0.0/particles.min.js"></script>
+<style>
+
+</style>
+  </head>
+  <body>
+
+    <div id="particles-js"></div>
+    <main id="main-page">
+        <h1 style="top:30px;">Problems</h1>
+        <div class="our-problems">
+            <div class="problem" style="background-color:#00008080; border-color: #333366">
+                <h2 >数学/Math</h2>
+                <a href="{{ .RelPermalink }}/Test.pdf"><p>問題(Test.pdf)</p></a>
+                <a href="{{ .RelPermalink }}/Test.pdf"><p>解説(終了後公開)</p></a>
+                <a href="{{ .RelPermalink }}/Test.pdf"><p>解答フォーム</p></a>
+                <p>作問者：　　　　　　</p>
+            </div>
+
+            <div class="problem" style="background-color:#80008080 ; border-color:#4d004d ">
+                <h2>化学/Chemistry</h2>
+                <a href="{{ .RelPermalink }}/Test.pdf"><p>問題(Test.pdf)</p></a>
+                <a href="{{ .RelPermalink }}/Test.pdf"><p>解説(終了後公開)</p></a>
+                <a href="{{ .RelPermalink }}/Test.pdf"><p>解答フォーム</p></a>
+                <p>作問者：　　　　　　</p>
+            </div>
+
+            <div class="problem" style="background-color:#80000080 ; border-color:#990000 ">
+                <h2>情報/Information</h2>
+                <a href="{{ .RelPermalink }}/Test.pdf"><p>問題(Test.pdf)</p></a>
+                <a href="{{ .RelPermalink }}/Test.pdf"><p>解説(終了後公開)</p></a>
+                <a href="{{ .RelPermalink }}/Test.pdf"><p>解答フォーム</p></a>
+                <p>作問者：　　　　　　</p>
+            </div>
+
+            <div class="problem" style="background-color:#00990080 ; border-color: green">
+                <h2>物理/Physics</h2>
+                <a href="{{ .RelPermalink }}/Test.pdf"><p>問題(Test.pdf)</p></a>
+                <a href="{{ .RelPermalink }}/Test.pdf"><p>解説(終了後公開)</p></a>
+                <a href="{{ .RelPermalink }}/Test.pdf"><p>解答フォーム</p></a>
+                <p>作問者：　　　　　　</p>
+            </div>
+
+            <div class="problem" style="background-color:#99803380 ; border-color:#808000;">
+                <h2>生物/Biology</h2>
+                <a href="{{ .RelPermalink }}/Test.pdf"><p>問題(Test.pdf)</p></a>
+                <a href="{{ .RelPermalink }}/Test.pdf"><p>解説(終了後公開)</p></a>
+                <a href="{{ .RelPermalink }}/Test.pdf"><p>解答フォーム</p></a>
+                <p>作問者：　　　　　　</p>
+            </div>
+
+            <div class="problem" style="background-color:#66330780; border-color:blown;">
+                <h2>世界史/World History</h2>
+                <a href="{{ .RelPermalink }}/Test.pdf"><p>問題(Test.pdf)</p></a>
+                <a href="{{ .RelPermalink }}/Test.pdf"><p>解説(終了後公開)</p></a>
+                <a href="{{ .RelPermalink }}/Test.pdf"><p>解答フォーム</p></a>
+                <p>作問者：　　　　　　</p>
+            </div>
+
+            <div class="problem" style="background-color:#e6e6e680 ; border-color: white;">
+                <h2>言語学/Linguistics</h2>
+                <a href="{{ .RelPermalink }}/Test.pdf"><p>問題(Test.pdf)</p></a>
+                <a href="{{ .RelPermalink }}/Test.pdf"><p>解説(終了後公開)</p></a>
+                <a href="{{ .RelPermalink }}/Test.pdf"><p>解答フォーム</p></a>
+                <p>作問者：　　　　　　</p>
+            </div>
+
+            <div class="problem" style="background-color:#b3331a80; border-color:#b34d1a;">
+                <h2>道徳/Moral</h2>
+                <a href="{{ .RelPermalink }}/Test.pdf"><p>問題(Test.pdf)</p></a>
+                <a href="{{ .RelPermalink }}/Test.pdf"><p>解説(終了後公開)</p></a>
+                <a href="{{ .RelPermalink }}/Test.pdf"><p>解答フォーム</p></a>
+                <p>作問者：　　　　　　</p>
+            </div>
+        </div>
+    </main>
+    {{- partial "footer.html" . -}}
+
+    <!-- We do need jQuery to be loaded before HugoScroll script -->
+
+    {{ $scriptJquery := resources.Get "js/jquery-3.6.3.min.js" }}
+
+    <!-- The main JavaScript files for HugoScroll -->
+    {{ $scriptIndex := resources.Get "js/index.js" }}
+    {{ $scriptPolyfill := resources.Get "js/css-vars-ponyfill.min.js" }}
+    {{ $js := slice $scriptJquery $scriptIndex $scriptPolyfill | resources.Concat "js/script.js" | resources.Minify | resources.Fingerprint }}
+
+    <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" ></script>
+    <!-- activate css-vars-ponyfill.min.js -->
+    <script>cssVars();</script>
+
+    <!-- A partial to be overwritten by the user.
+             Simply place a custom_body.html into
+             your local /layouts/partials-directory -->
+    {{- partial "custom_body.html" . -}}
+  </body>
+</html>
+
+<style>
+#particles-js{
+ height: 3200px;
+ width: 100vw;
+ background-color:#000033 ;
+
+}
+h1, h2, h3, p {
+    font-family:"Noto Serif JP", serif;
+    color:#e6e6e6;
+}
+a {
+    text-decoration: underline white;
+}
+
+#main-page {
+    position:absolute;
+    top:30px;
+    text-align: center;
+    width:80%;
+    margin-left:10%;
+    height: 3200px;
+}
+
+.our-problems {
+    width: 100%;
+    top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.problem {
+    width: 100%;
+    height: 300px;
+    border: 4px double;
+    border-radius: 2px;
+    margin: 30px;
+    padding : 2px;
+    border-style: solid;
+    text-align: center;
+}
+
+</style>
+<script>
+
+particlesJS("particles-js", {"particles":{"number":{"value":80,"density":{"enable":true,"value_area":800}},"color":{"value":"#ffffff"},"shape":{"type":"circle","stroke":{"width":0,"color":"#000000"},"polygon":{"nb_sides":5},"image":{"src":"img/github.svg","width":100,"height":100}},"opacity":{"value":0.5,"random":false,"anim":{"enable":false,"speed":1,"opacity_min":0.1,"sync":false}},"size":{"value":3,"random":true,"anim":{"enable":false,"speed":40,"size_min":0.1,"sync":false}},"line_linked":{"enable":true,"distance":150,"color":"#ffffff","opacity":0.4,"width":1},"move":{"enable":true,"speed":6,"direction":"none","random":false,"straight":false,"out_mode":"out","bounce":false,"attract":{"enable":false,"rotateX":600,"rotateY":1200}}},"interactivity":{"detect_on":"canvas","events":{"onhover":{"enable":true,"mode":"repulse"},"onclick":{"enable":true,"mode":"push"},"resize":true},"modes":{"grab":{"distance":400,"line_linked":{"opacity":1}},"bubble":{"distance":400,"size":40,"duration":2,"opacity":8,"speed":3},"repulse":{"distance":200,"duration":0.4},"push":{"particles_nb":4},"remove":{"particles_nb":2}}},"retina_detect":true});var count_particles, stats, update; stats = new Stats; stats.setMode(0); stats.domElement.style.position = 'absolute'; stats.domElement.style.left = '0px'; stats.domElement.style.top = '0px'; document.body.appendChild(stats.domElement); count_particles = document.querySelector('.js-count-particles'); update = function() { stats.begin(); stats.end(); if (window.pJSDom[0].pJS.particles && window.pJSDom[0].pJS.particles.array) { count_particles.innerText = window.pJSDom[0].pJS.particles.array.length; } requestAnimationFrame(update); }; requestAnimationFrame(update);;
+</script>
