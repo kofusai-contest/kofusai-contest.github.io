@@ -18,5 +18,8 @@ weight: 3
 # into the header menu at the top of the homepage.
 header_menu: true
 ---
+
+
+#### ＜問題訂正のお知らせ＞
 なし
 

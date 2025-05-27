@@ -18,6 +18,7 @@ title = "湖風祭コンテスト2025"
 # enable emoji processing in Markdown (valid only for pure markdown content)
 enableEmoji = true
 
+publishDir = "docs"
 # Theme-specific variables `.Site.Params.myParamName`
 [params]
 
