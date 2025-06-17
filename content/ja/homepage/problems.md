@@ -18,7 +18,7 @@ weight: 2
 # into the header menu at the top of the homepage.
 header_menu: true
 ---
-問題は以下の9つに分類され、総合点を競います。
+問題は以下の9つに分類され、それぞれの教科の点数で競います。
 - 数学(短答式)
 - 数学(記述式)
 - 物理
