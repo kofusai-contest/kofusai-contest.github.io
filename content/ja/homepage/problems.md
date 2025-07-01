@@ -31,5 +31,5 @@ header_menu: true
 
 コンテストページは以下になります。↓
 
-[Problems](../problems.md)
+- ### [湖風祭コンテスト問題ページ](../problems/) 
 

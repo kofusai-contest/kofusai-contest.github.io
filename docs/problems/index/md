@@ -1,5 +1,5 @@
 ---
-title: '記事'
+title: 'Problems'
 
 # The "header_menu_title" value will be used as text for header buttons.
 # The "title" value will be used if value for "header_menu_title" is not provided.
@@ -16,14 +16,7 @@ weight: 3
 
 # If "header_menu" is true, then a button linking to this section will be placed
 # into the header menu at the top of the homepage.
-header_menu: true
+type: "custom"
+layout: "problems"
 ---
 
-----
-#### <作問者の紹介>
-- ##### [作問者紹介ページ](/articles/writer) 
-
-----
-#### ＜問題訂正のお知らせ＞
-なし
-----

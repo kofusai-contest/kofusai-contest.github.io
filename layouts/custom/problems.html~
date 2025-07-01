@@ -16,71 +16,71 @@
         <div class="our-problems">
             <div class="problem" style="background-color:#00004d80; border-color:#8080b3 ">
                 <h2 >数学(短答式)/Math</h2>
-                <a href="{{ .RelPermalink }}/404.pdf"><p>問題(未公開)</p></a>
-                <a href="{{ .RelPermalink }}/404.pdf"><p>解説(終了後公開)</p></a>
-                <a href="{{ .RelPermalink }}/404"><p>解答フォーム(未公開)</p></a>
+                <a href="{{ .RelPermalink }}/Test.pdf"><p>問題(Test.pdf)</p></a>
+                <a href="{{ .RelPermalink }}/Test.pdf"><p>解説(終了後公開)</p></a>
+                <a href="{{ .RelPermalink }}/Test.pdf"><p>解答フォーム</p></a>
                 <p>作問者：Kyojin、光子</p>
             </div>
 
             <div class="problem" style="background-color:#4d4db380; border-color:#1a6699 ">
                 <h2 >数学(記述式)/Math</h2>
-                <a href="{{ .RelPermalink }}/kofucon25-math-type2.pdf"><p>問題(kofucon25-math-type2.pdf)</p></a>
-                <a href="{{ .RelPermalink }}/404.pdf"><p>解説(終了後公開)</p></a>
-                <a href="{{ .RelPermalink }}/404"><p>解答フォーム(未公開)</p></a>
+                <a href="{{ .RelPermalink }}/Test.pdf"><p>問題(Test.pdf)</p></a>
+                <a href="{{ .RelPermalink }}/Test.pdf"><p>解説(終了後公開)</p></a>
+                <a href="{{ .RelPermalink }}/Test.pdf"><p>解答フォーム</p></a>
                 <p>作問者：ゆーてる</p>
             </div>
 
             <div class="problem" style="background-color:#00990080 ; border-color: green">
                 <h2>物理/Physics</h2>
-                <a href="{{ .RelPermalink }}/kofucon2025-physics.pdf"><p>問題(kofucon2025-physics.pdf)</p></a>
-                <a href="{{ .RelPermalink }}/404.pdf"><p>解説(終了後公開)</p></a>
-                <a href="{{ .RelPermalink }}/404.pdf"><p>解答フォーム(未公開)</p></a>
+                <a href="{{ .RelPermalink }}/Test.pdf"><p>問題(Test.pdf)</p></a>
+                <a href="{{ .RelPermalink }}/Test.pdf"><p>解説(終了後公開)</p></a>
+                <a href="{{ .RelPermalink }}/Test.pdf"><p>解答フォーム</p></a>
                 <p>作問者：パラダイス預言者</p>
             </div>
 
             <div class="problem" style="background-color:#80008080 ; border-color:#4d004d ">
                 <h2>化学/Chemistry</h2>
-                <a href="{{ .RelPermalink }}/kofcon2025-chemistry.pdf"><p>問題(kofucon2025-chemistry.pdf)</p></a>
-                <a href="{{ .RelPermalink }}/404.pdf"><p>解説(終了後公開)</p></a>
-                <a href="{{ .RelPermalink }}/404"><p>解答フォーム(未公開)</p></a>
+                <a href="{{ .RelPermalink }}/Test.pdf"><p>問題(Test.pdf)</p></a>
+                <a href="{{ .RelPermalink }}/Test.pdf"><p>解説(終了後公開)</p></a>
+                <a href="{{ .RelPermalink }}/Test.pdf"><p>解答フォーム</p></a>
                 <p>作問者：光子</p>
             </div>
 
             <div class="problem" style="background-color:#80000080 ; border-color:#990000 ">
                 <h2>情報/Information</h2>
-                <a href="{{ .RelPermalink }}/kofucon2025-information.pdf"><p>問題(kofucon2025-information.pdf)</p></a>
-                <a href="{{ .RelPermalink }}/404.pdf"><p>解説(終了後公開)</p></a>
-                <a href="https://forms.gle/34BaHFuuukTyCLLv9"><p>解答フォーム</p></a>
-                <p>作問者：匿名P、杏凛</p>
+                <a href="{{ .RelPermalink }}/Test.pdf"><p>問題(Test.pdf)</p></a>
+                <a href="{{ .RelPermalink }}/Test.pdf"><p>解説(終了後公開)</p></a>
+                <a href="{{ .RelPermalink }}/Test.pdf"><p>解答フォーム</p></a>
+                <p>作問者：杏凛</p>
             </div>
 
             <div class="problem" style="background-color:#99803380 ; border-color:#808000;">
                 <h2>生物/Biology</h2>
-                <a href="{{ .RelPermalink }}/404.pdf"><p>問題(未公開)</p></a>
-                <a href="{{ .RelPermalink }}/404.pdf"><p>解説(終了後公開)</p></a>
-                <a href="{{ .RelPermalink }}/404"><p>解答フォーム(未公開)</p></a>
+                <a href="{{ .RelPermalink }}/Test.pdf"><p>問題(未公開)</p></a>
+                <a href="{{ .RelPermalink }}/Test.pdf"><p>解説(終了後公開)</p></a>
+                <a href="{{ .RelPermalink }}/Test.pdf"><p>解答フォーム</p></a>
                 <p>作問者：ゆーてる</p>
             </div>
 
             <div class="problem" style="background-color:#e6e6e680 ; border-color: white;">
                 <h2>地学/Geoscience</h2>
-                <a href="{{ .RelPermalink }}/404.pdf"><p>問題(未公開)</p></a>
-                <a href="{{ .RelPermalink }}/404.pdf"><p>解説(終了後公開)</p></a>
-                <a href="{{ .RelPermalink }}/404"><p>解答フォーム(未公開)</p></a>
+                <a href="{{ .RelPermalink }}/Test.pdf"><p>問題(未公開)</p></a>
+                <a href="{{ .RelPermalink }}/Test.pdf"><p>解説(終了後公開)</p></a>
+                <a href="{{ .RelPermalink }}/Test.pdf"><p>解答フォーム</p></a>
             </div>
 
             <div class="problem" style="background-color:#66330780; border-color:blown;">
                 <h2>世界史/World History</h2>
-                <a href="{{ .RelPermalink }}/404.pdf"><p>問題(未公開)</p><a>
-                <a href="{{ .RelPermalink }}/404.pdf"><p>解説(終了後公開)</p></a>
-                <a href="{{ .RelPermalink }}/404"><p>解答フォーム(未公開)</p></a>
+                <a href="{{ .RelPermalink }}/Test.pdf"><p>問題(未公開)</p></a>
+                <a href="{{ .RelPermalink }}/Test.pdf"><p>解説(終了後公開)</p></a>
+                <a href="{{ .RelPermalink }}/Test.pdf"><p>解答フォーム</p></a>
             </div>
 
             <div class="problem" style="background-color:#b3331a80; border-color:#b34d1a;">
                 <h2>道徳/Moral</h2>
-                <a href="{{ .RelPermalink }}/404.pdf"><p>問題(未公開)</p></a>
-                <a href="{{ .RelPermalink }}/404.pdf"><p>解説(終了後公開)</p></a>
-                <a href="{{ .RelPermalink }}/404/"><p>解答フォーム(未公開)</p></a>
+                <a href="{{ .RelPermalink }}/Test.pdf"><p>問題(未公開)</p></a>
+                <a href="{{ .RelPermalink }}/Test.pdf"><p>解説(終了後公開)</p></a>
+                <a href="{{ .RelPermalink }}/Test.pdf"><p>解答フォーム</p></a>
             </div>
         </div>
     </main>

@@ -19,6 +19,8 @@ title = "湖風祭コンテスト2025"
 enableEmoji = true
 
 publishDir = "docs"
+
+googleAnalytics = "G-N75H0CCMKD"
 # Theme-specific variables `.Site.Params.myParamName`
 [params]
 
@@ -40,7 +42,7 @@ publishDir = "docs"
     # Another "title" :-). This one is used as the site_name on the Hugo's internal
     # opengraph structured data template.
     # See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
-    title = "Jane Doe - Nutrition Coach & Chef Consultant"
+    title = "湖風祭コンテスト 2026"
 
     # The "description" of your website. This is used in the meta data of your generated html.
     description = "湖風祭コンテスト2025"
@@ -107,11 +109,5 @@ publishDir = "docs"
   [languages.ja]
     title = "湖風祭コンテスト"
     weight = 10
-    languageName = "日本語"
     contentDir = "content/ja"
 
-  [languages.en]
-    title = "Kofusai-contest"
-    weight = 20
-    contentDir = "content/en"
-    languageName = "English"

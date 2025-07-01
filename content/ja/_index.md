@@ -9,7 +9,7 @@ header_use_video: false
 header_logo: "images/chef-hat.png"
 #
 # Headers are safeHTML, you can use HTML tags such as b,i,u,br
-header_headline: "湖風祭コンテスト2025"
+header_headline: "湖風祭<br>コンテスト<br>2025"
 header_subheadline: "<b>ZEZE HIGH SCHOOL</b>"
 
 # Add a 'Go back to top' item to the navigation menu
