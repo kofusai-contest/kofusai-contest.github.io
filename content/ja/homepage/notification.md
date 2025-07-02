@@ -25,5 +25,5 @@ header_menu: true
 
 ----
 #### ＜問題訂正のお知らせ＞
-なし
+- ##### [問題訂正のお知らせページ(7/3最新)](/articles/problem-correction) 
 ----
