@@ -20,6 +20,10 @@ header_menu: true
 ---
 
 ----
+#### 解答続々公開中！
+- ##### [公開済み解答一覧](/articles/answers)
+
+----
 #### <作問者の紹介>
 - ##### [作問者紹介ページ](/articles/writer) 
 

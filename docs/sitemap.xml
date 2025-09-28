@@ -6,6 +6,8 @@
   </url><url>
     <loc>http://localhost:1313/</loc>
   </url><url>
+    <loc>http://localhost:1313/articles/answers/</loc>
+  </url><url>
     <loc>http://localhost:1313/articles/writer/</loc>
   </url><url>
     <loc>http://localhost:1313/articles/problem-correction/</loc>
