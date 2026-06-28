@@ -1,0 +1,5 @@
+baseURL = "http://kofusai-contest.github.io"
+locale = 'ja'
+title = "湖風祭コンテスト2025"
+customCSS = ["/css/custom.css"]
+
