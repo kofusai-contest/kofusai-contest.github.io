@@ -13,7 +13,7 @@
 
 
 
-  <meta name="description" content="湖風祭コンテスト2026"
+  <meta name="description" content="湖風祭コンテスト2025"
 />
 
   <meta name="keywords" content="湖風祭,湖風祭コンテスト,滋賀県立膳所高等学校, 膳所高等学校, 膳所高校, 膳所高"
@@ -39,7 +39,7 @@
 <meta property="og:url" content="http://localhost:1313/">
   <meta property="og:site_name" content="湖風祭コンテスト">
   <meta property="og:title" content="湖風祭コンテスト">
-  <meta property="og:description" content="湖風祭コンテスト2026">
+  <meta property="og:description" content="湖風祭コンテスト2025">
   <meta property="og:locale" content="ja">
   <meta property="og:type" content="website">
     <meta property="og:image" content="http://localhost:1313/images/cover-image.jpg">
@@ -48,11 +48,11 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:image" content="http://localhost:1313/images/cover-image.jpg">
   <meta name="twitter:title" content="湖風祭コンテスト">
-  <meta name="twitter:description" content="湖風祭コンテスト2026">
+  <meta name="twitter:description" content="湖風祭コンテスト2025">
 
 
   <meta itemprop="name" content="湖風祭コンテスト">
-  <meta itemprop="description" content="湖風祭コンテスト2026">
+  <meta itemprop="description" content="湖風祭コンテスト2025">
   <meta itemprop="image" content="http://localhost:1313/images/cover-image.jpg">
 
 
@@ -109,7 +109,7 @@
 	    
 
             
-              <h1 class="blog-title">湖風祭<br>コンテスト<br>2026</h1>
+              <h1 class="blog-title">湖風祭<br>コンテスト<br>2025</h1>
               <h2 class="blog-description"><b>ZEZE HIGH SCHOOL</b></h2>
             
 
@@ -212,12 +212,12 @@
 <li>物理</li>
 <li>化学</li>
 <li>情報</li>
+<li>生物</li>
 <li>地学</li>
 <li>世界史</li>
 <li>道徳</li>
-<li>謎解き<li>
 </ul>
-<p>問題はまだ作成されていません。</p>
+<p>コンテストページは以下になります。↓</p>
 <ul>
 <li>
 <h3 id="湖風祭コンテスト問題ページ"><a href="./problems/">湖風祭コンテスト問題ページ</a></h3>
@@ -263,6 +263,26 @@
                 </header>
                 <section class="post-content">
                     <hr>
+<h4 id="解答続々公開中">解答続々公開中！</h4>
+<ul>
+<li>
+<h5 id="公開済み解答一覧"><a href="./articles/answers/">公開済み解答一覧</a></h5>
+</li>
+</ul>
+<hr>
+<h4 id="作問者の紹介">&lt;作問者の紹介&gt;</h4>
+<ul>
+<li>
+<h5 id="作問者紹介ページ"><a href="./articles/writer/">作問者紹介ページ</a></h5>
+</li>
+</ul>
+<hr>
+<h4 id="問題訂正のお知らせ">＜問題訂正のお知らせ＞</h4>
+<ul>
+<li>
+<h5 id="問題訂正のお知らせページ77最新"><a href="./articles/problem-correction/">問題訂正のお知らせページ(7/7最新)</a></h5>
+</li>
+</ul>
 <hr>
 
                 </section>
@@ -280,7 +300,8 @@
                 </header>
                 <section class="post-content">
                     
-    
+    <p><i class="fa fa-envelope"></i>&nbsp;<a href="mailto:zkofusaicontest25@gmail.com">zkofusaicontest25@gmail.com</a></p>
+
     <p><i class="fa-brands fa-github"></i>&nbsp;<a href="https://github.com/kofusai-contest">github.com/kofusai-contest</a></p>
 
 
@@ -303,7 +324,7 @@
     
 
     
-      <section class="copyright">© Kofusai Contest 2026</section>
+      <section class="copyright">© Kofusai Contest 2025</section>
     
 
     
